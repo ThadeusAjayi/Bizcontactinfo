@@ -12,13 +12,12 @@
         android:layout_height="50dp"
         android:scaleType="fitCenter"
         android:src="@drawable/shoplogo"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginTop="2dp"/>
 
     <ImageView
         android:id="@+id/banner"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:src="@drawable/shop"
         android:scaleType="fitCenter" />
 
