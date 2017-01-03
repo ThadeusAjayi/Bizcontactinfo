@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ajayithadeus.bizcontactinfo.MainActivity">
+
+    <ImageView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shoplogo"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/shop"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/stxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop and have a Spree!!!"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/biztype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Retail: Mobile Electronic Gadgets"
+        android:textColor="#4E6809"
+        android:textSize="20dp"
+        android:layout_marginLeft="12dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marker"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:id="@+id/adtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36, Olamiko Street, Dopemu-Lagos"
+                android:textColor="#4E6809"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:src="@drawable/phone"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/ptxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08025073779"
+                android:textColor="#4E6809"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/mail"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/etxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thadeus@shopspreeng.com"
+            android:textColor="#4E6809"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/globe"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="11dp"/>
+
+        <TextView
+            android:id="@+id/wtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.shopspreeng.com"
+            android:textColor="#4E6809"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/otime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opening Hours"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/time"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="11dp"/>
+
+        <TextView
+            android:id="@+id/wtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday - Friday   8:00am - 5:00pm"
+            android:textColor="#4E6809"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/time"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="11dp"/>
+
+        <TextView
+            android:id="@+id/wentime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturdays   9:00am - 3:30pm"
+            android:textColor="#4E6809"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
